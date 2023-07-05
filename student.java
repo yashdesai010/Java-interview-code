@@ -1,5 +1,5 @@
 /**
- * student
+ * demonstrate use of super keyword(student) 
  */
 public class student {
 
