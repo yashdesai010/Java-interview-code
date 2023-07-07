@@ -10,5 +10,6 @@ public class hashmapp {
     for(Map.Entry m:hp.entrySet()){
         System.out.println(m.getKey()+""+m.getValue());
     }
+    System.out.println(hp.get(1));
 }
 }
