@@ -4,10 +4,14 @@ public class overridings {
    }
 }
    class display extends overridings{
+      void details(){
+         System.out.println("Hello");
+      }
  public static void main(String[] args) {
-    display d1=new display();
-    d1.details();
- 
+   overridings ov=new overridings();
+   ov.details();
+   display d1=new display();
+   d1.details();
    }
 
 }

@@ -8,7 +8,7 @@ public class palindrom {
         System.out.println(pali);
 
         if(pali.equals(s)){
-            System.out.println("palindrom");
+            System.out.println("Palindrom");
         }
         else{
             System.out.println("False");

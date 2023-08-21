@@ -8,6 +8,7 @@ public class STack {
         s.push(3);
         s.push(4);
         s.pop();
-    System.out.println(s.peek());//return top element
+        System.out.println(s);
+    System.out.println(s.peek());//return top element(LIFO)
     }
 }

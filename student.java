@@ -1,5 +1,5 @@
 /**
- * demonstrate use of super keyword(student) 
+ * demonstrate use of static keyword(student) 
  */
 public class student {
 

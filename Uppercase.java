@@ -1,6 +1,6 @@
 public class Uppercase {
     public static void main(String[] args) {
-        String s="YASH";
+        String s="YAsh";
         char c[]=s.toCharArray();
         for (int i = 0; i < c.length; i++) {
             if(Character.isUpperCase(c[i])){

@@ -1,13 +1,23 @@
-abstract class abstractss
-{
-abstract void run();
+abstract class abstractss{
+abstract void list();{
 }
-class boy extends abstractss{
-    void run(){
-        System.out.println("Running Hard");
+}
+class games extends abstractss{
+    void list(){
+        System.out.println("DMC,Sleeping Dogs,Call of duty");
     }
+
+/**
+ * Innerabstractss
+ */
+
     public static void main(String[] args) {
-        abstractss ab=new boy();
-        ab.run();
+        abstractss games=new games();
+        games.list();
     }
 }
+        
+            
+        
+
+
